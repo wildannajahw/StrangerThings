@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Dosen" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/kurikulum"
+            android:title="Kurikulum" />
+        <item
+            android:id="@+id/krs"
+            android:icon="@drawable/ic_content_copy_black_24dp"
+            android:title="Isi/ Ubah KRS" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/visi"
+            android:title="Visi dan Misi" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/him"
+            android:title="HMIF" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="#ebedea"
+    tools:context="hmif.strangerthings.VisiMisi">
+
+    <Button
+        android:id="@+id/visi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VISI"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+
+    <Button
+        android:id="@+id/misi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MISI"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Menyelenggarakan dan mengelola program studi yang profesional, akuntabel, dan berdaya saing untuk memperkuat pengembangan ilmu pengetahun dan teknologi bidang informatika pada tingkat nasional maupun internasional berbasis wahyu memandu ilmu.">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Menyelenggarakan pendidikan tinggi bidang informatika yang mampu menciptakan lulusan yang terampil, profesional, berjiwa entrepreneurship dan berakhlak karimah.">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Menyelenggarakan penelitian guna mengembangkan dan menerapkan ilmu pengetahuan dan teknologi bidang informatika yang dilandasi nilai Islami.">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Menyelenggarakan pengabdian kepada masyarakat, untuk menyebarluaskan pengetahuan dan teknologi bidang informatika, guna mengembangkan potensi dan daya saing masyarakat yang berakar pada nilai Islami. ">
+    </TextView>
+</LinearLayout>
